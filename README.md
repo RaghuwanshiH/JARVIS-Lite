@@ -34,6 +34,7 @@ Web UI - recommended:
 python python/app.py
 ```
 Then open http://127.0.0.1:7860. For a public link, set share=True in app.py.
+
 **CLI version - terminal only:**
 ```bash
 python python/test.py
@@ -52,20 +53,7 @@ demo.launch(share=True)
 ```
 Restart the app and you'll get a https://xxxx.gradio.live link.
 
-### Built with ❤️ to prove AI doesn't need the cloud
-**Also fix this one line break before you paste:**
+---
+**Built with ❤️ to prove AI doesn't need the cloud**
 
-Find this line in your file:
-```markdown
-Then open `http://127.0.0.1:7860`. For a public link, set `share=True` in `app.py`. **CLI version - terminal only:**
-```
-Change it to this - hit Enter after app.py.:
-Then open `http://127.0.0.1:7860`. For a public link, set `share=True` in `app.py`.
-
-**CLI version - terminal only:**
-```bash
-python python/test.py
-```
-
-**That's it. Save → Commit → v1.0 DONE.**
 
