@@ -34,16 +34,16 @@ pip install gradio
 ```
 Web UI - recommended:
 ```bash
-python python/app.py
+python/app.py
 ```
 **CLI version - terminal only:**
 ```bash
-python python/test.py
+python/test.py
 ```
 
 ### Features:
 - Chat with local LLM through browser
-- -Public sharing via HF Spaces
+- Public sharing via HF Spaces
 - Fully offline after setup
 
 ### Want 10x faster responses?
