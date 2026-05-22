@@ -1,6 +1,6 @@
 import ollama
 
-res = ollama.chat(model='phi3:mini', messages=[
+res = ollama.chat(model='tinyllama', messages=[
   {'role': 'user', 'content': 'write a code two multiply two numbers in python'}
 ])
 
