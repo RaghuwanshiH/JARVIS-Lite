@@ -7,7 +7,7 @@ Offline ChatGPT clone using TinyLlama 1.1B. No API keys, no cost, always online.
 ### 🚀 Live Demo
 https://huggingface.co/spaces/HarshRaghuwanshi/python
 
-![Demo](demo.png)
+![Demo](demo1.png)
 
 ### Why this is cool:
 - **Zero API costs** - no OpenAI key needed
