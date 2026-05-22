@@ -16,7 +16,7 @@ https://huggingface.co/spaces/HarshRaghuwanshi/python
 - **Runs on CPU** - works anywhere, no GPU needed
 
 ### Tech Stack:
-Python, Gradio, TinyLlama, Hugging Face Spaces
+Python, Gradio, TinyLlama 1.1B, Hugging Face Spaces
 
 ### Run it locally:
 
