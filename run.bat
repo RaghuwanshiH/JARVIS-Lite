@@ -8,7 +8,6 @@ echo   100%% Offline ^| No API Keys ^| Always Free
 echo ================================================
 echo.
 
-REM Check if Python is installed
 python --version >nul 2>&1
 if errorlevel 1 (
     echo [ERROR] Python not found!
@@ -22,7 +21,6 @@ if errorlevel 1 (
 echo [1/3] Checking Python... OK
 echo.
 
-REM Install requirements if needed
 echo [2/3] Installing/Updating requirements...
 python -m pip install --upgrade pip >nul
 pip install -r python/requirements.txt
@@ -42,9 +40,11 @@ set /p choice="Enter 1 or 2: "
 
 if "%choice%"=="1" (
     echo.
-    echo Starting Web UI... Open http://127.0.0.1:7860 in your browser
+    echo Starting Web UI...
+    echo Opening http://127.0.0.1:7860 in your browser
     echo Press Ctrl+C here to stop the server
     echo.
+    start http://127.0.0.1:7860
     python python/app.py
 ) else if "%choice%"=="2" (
     echo.
