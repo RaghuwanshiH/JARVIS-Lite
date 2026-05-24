@@ -1,8 +1,8 @@
-# Local AI Assistant - Cloud Version
+# JARVIS Lite ☁️
 
-### ☁️ Runs 24/7 on Hugging Face Spaces
+### 100% Free AI Assistant That Runs Anywhere
 
-Offline ChatGPT clone using TinyLlama 1.1B. No API keys, no cost, always online.
+Cloud-hosted version of JARVIS using TinyLlama 1.1B. No API keys, no GPU, no cost. Always online.
 
 ### 🚀 Live Demo
 https://huggingface.co/spaces/HarshRaghuwanshi/python
@@ -41,10 +41,12 @@ python python/test.py
 - Public sharing via HF Spaces
 - Fully offline after setup
 
-### Want 10x faster responses?
-I also built a GPU-accelerated version using Phi-3 3.8B + RTX 3050:
-→ [local-ai-assistant-phi3](https://github.com/RaghuwanshiH/local-ai-assistant-phi3)
+### Need 10x faster responses?
+JARVIS Lite is perfect for testing. For production speed, use the GPU version:
+→ [JARVIS](https://github.com/RaghuwanshiH/JARVIS) - Phi-3 3.8B + RTX 3050, 3-5x faster
 
+---
+**Part of the JARVIS project family**
 **Built with ❤️ to prove AI doesn't need the cloud**
 
 
